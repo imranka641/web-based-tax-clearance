@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Improve dropdown styling */
+.navbar-nav .dropdown-menu {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: #f8f9fa;
+}
+.payment-method-card {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.payment-method-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.payment-method-card.selected {
+    border-color: #0d6efd;
+    background-color: #f0f7ff;
+}
+
+.receipt-preview {
+    max-width: 100%;
+    max-height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.category-badge {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+}

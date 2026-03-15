@@ -1,0 +1,339 @@
+/* Modern Navigation Styles */
+.modern-navbar {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 0;
+  transition: all 0.3s ease;
+}
+
+.modern-navbar:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Brand Logo Styling */
+.brand-logo {
+  padding: 0;
+  margin-right: 2rem;
+}
+
+.brand-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+}
+
+.ethiopia-flag {
+  font-size: 2rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.brand-main {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #2E86AB, #1B5E80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.5px;
+}
+
+.brand-sub {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation Toggle */
+.nav-toggle {
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.nav-toggle:focus {
+  box-shadow: none;
+}
+
+.nav-toggle .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(46, 134, 171, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+  padding: 0.75rem 1.25rem !important;
+  margin: 0 0.25rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  color: #495057 !important;
+}
+
+.nav-link:hover {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  transform: translateY(-1px);
+  color: #2E86AB !important;
+}
+
+.nav-link-super {
+  background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+  border: 1px solid #ffd43b;
+}
+
+.nav-link-super:hover {
+  background: linear-gradient(135deg, #ffeaa7, #ffd43b);
+  color: #856404 !important;
+}
+
+.nav-link-staff {
+  background: linear-gradient(135deg, #d1ecf1, #bee5eb);
+  border: 1px solid #17a2b8;
+}
+
+.nav-link-staff:hover {
+  background: linear-gradient(135deg, #bee5eb, #17a2b8);
+  color: #0c5460 !important;
+}
+
+.nav-link-taxpayer {
+  background: linear-gradient(135deg, #d4edda, #c3e6cb);
+  border: 1px solid #28a745;
+}
+
+.nav-link-taxpayer:hover {
+  background: linear-gradient(135deg, #c3e6cb, #28a745);
+  color: #155724 !important;
+}
+
+.nav-link-login {
+  background: linear-gradient(135deg, #e2e3e5, #d6d8db);
+  border: 1px solid #6c757d;
+}
+
+.nav-link-register {
+  background: linear-gradient(135deg, #2E86AB, #1B5E80);
+  color: white !important;
+  border: 1px solid #1B5E80;
+}
+
+.nav-link-register:hover {
+  background: linear-gradient(135deg, #1B5E80, #144a66);
+  color: white !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(27, 94, 128, 0.3);
+}
+
+.nav-icon {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.nav-text {
+  white-space: nowrap;
+}
+
+.nav-badge {
+  font-size: 0.6rem;
+  padding: 0.2rem 0.4rem;
+  margin-left: 0.5rem;
+}
+
+/* User Dropdown */
+.user-dropdown {
+  margin-left: 1rem;
+}
+
+.user-menu-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.user-menu-toggle:hover {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem;
+}
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2E86AB, #1B5E80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(46, 134, 171, 0.3);
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.user-name {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #2b2d42;
+}
+
+.user-role {
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.dropdown-arrow {
+  font-size: 1rem;
+  color: #6c757d;
+  transition: transform 0.3s ease;
+}
+
+.user-dropdown.show .dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+/* Dropdown Menu */
+.user-dropdown-menu {
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #495057;
+  transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background: linear-gradient(135deg, #2E86AB, #1B5E80);
+  color: white;
+  transform: translateX(4px);
+}
+
+.dropdown-item.logout-item {
+  color: #dc3545;
+}
+
+.dropdown-item.logout-item:hover {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: white;
+}
+
+.dropdown-icon {
+  font-size: 1rem;
+  width: 20px;
+  text-align: center;
+}
+
+/* Public Navigation */
+.public-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .modern-navbar {
+    padding: 0.5rem 0;
+  }
+  
+  .navbar-nav {
+    padding: 1rem 0;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0.25rem 0;
+    justify-content: flex-start;
+  }
+  
+  .user-dropdown {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  
+  .public-nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .nav-link-login,
+  .nav-link-register {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .brand-main {
+    font-size: 1.25rem;
+  }
+  
+  .ethiopia-flag {
+    font-size: 1.5rem;
+  }
+  
+  .user-info {
+    display: none;
+  }
+  
+  .dropdown-arrow {
+    display: none;
+  }
+}
+
+/* Animation for navbar items */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar-nav .nav-link {
+  animation: slideIn 0.3s ease-out;
+}
+
+.navbar-nav .nav-link:nth-child(1) { animation-delay: 0.1s; }
+.navbar-nav .nav-link:nth-child(2) { animation-delay: 0.2s; }
+.navbar-nav .nav-link:nth-child(3) { animation-delay: 0.3s; }
+.navbar-nav .nav-link:nth-child(4) { animation-delay: 0.4s; }
